@@ -20,7 +20,7 @@ export const authOptions: NextAuthOptions = {
         const inputEmail = credentials.email.toLowerCase().trim();
         const inputPassword = credentials.password;
 
-        const defaultAdminEmail = (process.env.ADMIN_EMAIL || 'admin@pritom.dev').toLowerCase().trim();
+        const defaultAdminEmail = (process.env.ADMIN_EMAIL || 'admin@ferdous.dev').toLowerCase().trim();
         const defaultAdminPassword = process.env.ADMIN_PASSWORD || 'Admin@123456';
 
         try {
@@ -47,7 +47,7 @@ export const authOptions: NextAuthOptions = {
         if (inputEmail === defaultAdminEmail && inputPassword === defaultAdminPassword) {
           return {
             id: 'admin-env-user',
-            name: 'Pritom Chowdhury (Admin)',
+            name: 'SM Ferdous Ahmmed (Admin)',
             email: defaultAdminEmail,
             role: 'admin',
           };
@@ -81,7 +81,7 @@ export const authOptions: NextAuthOptions = {
     signIn: '/admin/login',
     error: '/admin/login',
   },
-  secret: process.env.NEXTAUTH_SECRET || 'pritom-super-secret-key-32chars-min-prod',
+  secret: process.env.NEXTAUTH_SECRET || 'sm-ferdous-ahmmed-secure-jwt-auth-key-2026',
 };
 
 export default authOptions;
