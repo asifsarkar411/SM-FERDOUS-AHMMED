@@ -39,7 +39,7 @@ export default function AdminLoginPage() {
   };
 
   const autofillDemoCredentials = () => {
-    setEmail('admin@pritom.dev');
+    setEmail('asifsarkar411@gmail.com');
     setPassword('Admin@123456');
   };
 

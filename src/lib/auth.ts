@@ -20,7 +20,7 @@ export const authOptions: NextAuthOptions = {
         const inputEmail = credentials.email.toLowerCase().trim();
         const inputPassword = credentials.password;
 
-        const defaultAdminEmail = (process.env.ADMIN_EMAIL || 'admin@ferdous.dev').toLowerCase().trim();
+        const defaultAdminEmail = (process.env.ADMIN_EMAIL || 'asifsarkar411@gmail.com').toLowerCase().trim();
         const defaultAdminPassword = process.env.ADMIN_PASSWORD || 'Admin@123456';
 
         try {
