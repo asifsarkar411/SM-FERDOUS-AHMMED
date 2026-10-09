@@ -75,9 +75,13 @@ export default async function HomePage() {
   const data = await getPortfolioData();
 
   return (
-    <main className="min-h-screen bg-[#080c14] text-slate-100 flex flex-col">
+    <main className="min-h-screen bg-slate-50 dark:bg-black text-slate-900 dark:text-slate-100 flex flex-col transition-colors duration-200">
       {/* Sticky Top Navbar */}
-      <Navbar statusBadge={data.profile.statusBadge} />
+      <Navbar
+        statusBadge={data.profile.statusBadge}
+        name={data.profile.name}
+        avatarUrl={data.profile.avatarUrl}
+      />
 
       {/* Main Content Sections */}
       <Hero profile={data.profile} />

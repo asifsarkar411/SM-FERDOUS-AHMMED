@@ -263,7 +263,7 @@ export default function AdminDashboardPage() {
 
   // Seed / Reset Database Trigger
   const handleSeedDatabase = async () => {
-    if (!window.confirm('Are you sure you want to seed/reset the database with the initial dataset for Pritom Chowdhury? Existing records will be synced.')) {
+    if (!window.confirm('Are you sure you want to seed/reset the database with the initial dataset for SM Ferdous Ahmmed? Existing records will be synced.')) {
       return;
     }
 
@@ -399,7 +399,7 @@ export default function AdminDashboardPage() {
             <div>
               <span className="font-bold text-white text-base">Admin Dashboard</span>
               <span className="hidden sm:inline-block ml-2 text-xs font-mono text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">
-                Pritom Chowdhury
+                SM Ferdous Ahmmed
               </span>
             </div>
           </div>
@@ -516,7 +516,7 @@ export default function AdminDashboardPage() {
               <div className="space-y-6 animate-fadeIn">
                 <div className="glass-card rounded-2xl p-6 sm:p-8 border border-white/10 space-y-2">
                   <h2 className="text-2xl font-bold text-white">
-                    Welcome back, <span className="text-cyan-400">{profile?.name || 'Pritom'}</span>!
+                    Welcome back, <span className="text-cyan-400">{profile?.name || 'SM Ferdous Ahmmed'}</span>!
                   </h2>
                   <p className="text-sm text-slate-400">
                     Portfolio Management Control Center. Full CRUD operations across all portfolio collections.

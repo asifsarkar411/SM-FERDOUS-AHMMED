@@ -1,6 +1,6 @@
 export const initialSeedData = {
   profile: {
-    name: 'Pritom Chowdhury',
+    name: 'SM Ferdous Ahmmed',
     title: 'Software Quality Assurance Engineer & Full-Stack Developer',
     bio: 'Passionate Quality Assurance Specialist and Full-Stack Web Developer based in Mirpur, Dhaka. Dedicated to engineering robust test automation frameworks, seamless digital experiences, and scalable cloud solutions.',
     aboutStory: `I am a tech enthusiast with a strong foundation in Computer Science & Engineering from Bangladesh University of Business and Technology (BUBT). With hands-on expertise spanning Software Quality Assurance, automated test architecture (Selenium, Playwright, Postman), and modern full-stack web development (React, Next.js, Node.js, MongoDB), I bridge the gap between development agility and bulletproof software reliability.
@@ -9,16 +9,16 @@ Beyond writing code and automated tests, I am an active Linux power-user (Zorin 
     status: 'Available',
     statusBadge: 'Active for Hire / Open to New Projects',
     location: 'Mirpur, Dhaka, Bangladesh',
-    email: 'pritom.chowdhury.dev@gmail.com',
+    email: 'asifsarkar411@gmail.com',
     phone: '+880 1700-000000',
     resumeUrl: '#resume',
     avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
     socialLinks: {
-      github: 'https://github.com',
+      github: 'https://github.com/asifsarkar411',
       linkedin: 'https://linkedin.com',
       twitter: 'https://twitter.com',
       facebook: 'https://facebook.com',
-      website: 'https://pritomchowdhury.dev',
+      website: 'https://github.com/asifsarkar411',
     },
     metrics: {
       yearsExperience: '3+',
@@ -271,14 +271,14 @@ Beyond writing code and automated tests, I am an active Linux power-user (Zorin 
       senderName: 'Sarah Jenkins',
       email: 'sarah.j@techventures.io',
       subject: 'Senior QA Automation Opportunity',
-      body: 'Hi Pritom, I came across your portfolio and was very impressed by your automation frameworks and track record at Klozer.io. We have an open Senior SQA role and would love to schedule an introductory chat!',
+      body: 'Hi Ferdous, I came across your portfolio and was very impressed by your automation frameworks and track record at Klozer.io. We have an open Senior SQA role and would love to schedule an introductory chat!',
       read: false,
     },
     {
       senderName: 'Mohammad Tanvir',
       email: 'tanvir@startupbangla.co',
       subject: 'Collaboration on Next.js / SQA Project',
-      body: 'Assalamu Alaikum Pritom bhai. We are building an ed-tech SaaS in Dhaka and looking for someone with your dual skills in Next.js and testing. Let me know when you are available for a coffee meeting.',
+      body: 'Assalamu Alaikum Ferdous bhai. We are building an ed-tech SaaS in Dhaka and looking for someone with your dual skills in Next.js and testing. Let me know when you are available for a coffee meeting.',
       read: true,
     },
   ],

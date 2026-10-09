@@ -60,13 +60,13 @@ export async function POST() {
     await Message.insertMany(initialSeedData.messages);
 
     // 10. Default Admin User
-    const adminEmail = (process.env.ADMIN_EMAIL || 'admin@pritom.dev').toLowerCase();
+    const adminEmail = (process.env.ADMIN_EMAIL || 'asifsarkar411@gmail.com').toLowerCase();
     const adminPassword = process.env.ADMIN_PASSWORD || 'Admin@123456';
     const hashedPassword = await bcrypt.hash(adminPassword, 10);
 
     await User.deleteMany({ email: adminEmail });
     await User.create({
-      name: 'Pritom Chowdhury (Admin)',
+      name: 'SM Ferdous Ahmmed (Admin)',
       email: adminEmail,
       password: hashedPassword,
       role: 'admin',
@@ -74,7 +74,7 @@ export async function POST() {
 
     return NextResponse.json({
       success: true,
-      message: 'Database seeded successfully with initial data for Pritom Chowdhury!',
+      message: 'Database seeded successfully with initial data for SM Ferdous Ahmmed!',
       adminCredentials: {
         email: adminEmail,
         note: 'Default admin account has been created/updated.',

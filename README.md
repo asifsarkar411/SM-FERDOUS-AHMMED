@@ -1,6 +1,6 @@
 # SM-FERDOUS-AHMMED
 
-# Pritom Chowdhury | Professional Portfolio & Secure Admin Panel
+# SM Ferdous Ahmmed | Professional Portfolio & Secure Admin Panel
 
 A modern, dynamic, and responsive full-stack portfolio website engineered with **Next.js (App Router)**, **React 19**, **Node.js**, **Tailwind CSS**, **MongoDB Atlas (Mongoose)**, and **NextAuth.js**.
 
@@ -61,12 +61,12 @@ NEXTAUTH_SECRET="your-super-secret-random-32-character-key"
 NEXTAUTH_URL="http://localhost:3000"
 
 # Default Admin Credentials
-ADMIN_EMAIL="admin@pritom.dev"
+ADMIN_EMAIL="asifsarkar411@gmail.com"
 ADMIN_PASSWORD="Admin@123456"
 ```
 
 ### 3. Seed Database with Initial Data
-Run the automated seed script to populate MongoDB with Pritom Chowdhury's profile, experience, projects, and create the default admin user:
+Run the automated seed script to populate MongoDB with SM Ferdous Ahmmed's profile, experience, projects, and create the default admin user:
 
 ```bash
 npm run seed
@@ -86,7 +86,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🔐 Default Admin Credentials
 
-- **Email**: `admin@pritom.dev`
+- **Email**: `asifsarkar411@gmail.com`
 - **Password**: `Admin@123456`
 
 *(You can update your credentials and password directly through the environment variables or MongoDB).*
